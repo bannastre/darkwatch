@@ -2,7 +2,7 @@
   "name": "darkwatch",
   "type": "dark",
   "colors": {
-    "editor.background": "#1e1e1e",
+    "editor.background": "#282828ff",
     "editor.foreground": "#d4d4d4",
     "activityBarBadge.background": "#007acc",
     "sideBarTitle.foreground": "#bbbbbb"

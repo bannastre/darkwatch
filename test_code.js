@@ -1,5 +1,7 @@
 const jwt = require('jsonwebtoken');
 
+let this = [];
+
 module.exports = class JWTGenerator {
   constructor(payload) {
     this.payload = payload;
