@@ -15,7 +15,7 @@
 			}
 		},
 		{
-			"name": "Comment",
+			"name": "Deep Grey Seas",
 			"scope": [
 				"comment",
 				"punctuation.definition.comment"
@@ -26,18 +26,25 @@
 			}
 		},
 		{
-			"name": "Variables",
+			"name": "Seaweed Green",
 			"scope": [
 				"variable",
-				"string constant.other.placeholder"
-				// "variable.parameter"
+				"string constant.other.placeholder",
+				"variable.other.readwrite.js",
+				"string",
+				"constant.other.symbol",
+				"constant.other.key",
+				"entity.other.inherited-class",
+				"markup.heading",
+				"markup.inserted.git_gutter",
+				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
 			],
 			"settings": {
 				"foreground": "#83A598"
 			}
 		},
 		{
-			"name": "Keyword, Storage",
+			"name": "Burnt Orange",
 			"scope": [
 				"keyword",
 				"storage.type",
@@ -46,14 +53,22 @@
 				"keyword.other",
 				"keyword.other.unit",
 				"keyword.other.template",
-				"keyword.other.substitution"
+				"keyword.other.substitution",
+				"support.type",
+				"support.class",
+				"support.constant",
+				"support.orther.namespace.use.php",
+				"meta.use.php",
+				"support.other.namespace.php",
+				"markup.changed.git_gutter",
+				"support.type.sys-types"
 			],
 			"settings": {
 				"foreground": "#FE8019"
 			}
 		},
 		{
-			"name": "Operator, Misc",
+			"name": "Bone",
 			"scope": [
 				"constant.other.color",
 				"punctuation",
@@ -78,71 +93,41 @@
 			}
 		},
 		{
-			"name": "Function, Special Method",
+			"name": "Shore Mud Grey Brown",
 			"scope": [
 				"entity.name.function",
 				"meta.function-call",
 				"variable.function",
 				"support.function",
-				"keyword.other.special-method"
+				"keyword.other.special-method",
+				"keyword.control.ruby"
 			],
 			"settings": {
 				"foreground": "#BDA98A"
 			}
 		},
 		{
-			"name": "Number, Constant, Function Argument, Tag Attribute, Embedded",
+			"name": "Sun Yellow",
 			"scope": [
 				"constant.numeric",
 				"constant.language",
 				"constant.character",
 				"constant.escape",
-				"entity.name"
+				"entity.name",
+				"support.class.ruby"
 			],
 			"settings": {
 				"foreground": "#FFCB6B"
 			}
 		},
 		{
-			"name": "String, Symbols, Inherited Class, Markup Heading",
-			"scope": [
-				"string",
-				"constant.other.symbol",
-				"constant.other.key",
-				"entity.other.inherited-class",
-				"markup.heading",
-				"markup.inserted.git_gutter",
-				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
-			],
-			"settings": {
-				"fontStyle": "normal",
-				"foreground": "#83A598"
-			}
-		},
-		{
-			"name": "Support",
-			"scope": [
-				"support.type",
-				"support.class",
-				"support.constant",
-				"support.orther.namespace.use.php",
-				"meta.use.php",
-				"support.other.namespace.php",
-				"markup.changed.git_gutter",
-				"support.type.sys-types"
-			],
-			"settings": {
-				"foreground": "#FE8019"
-			}
-		},
-		{
-			"name": "Ruby Instance Variables",
+			"name": "Blood Red",
 			"scope": [
 				"variable.other.readwrite.instance.ruby",
 				"punctuation.definition.variable.ruby"
 			],
 			"settings": {
-				"foreground": "#d68971"
+				"foreground": "#ee6136"
 			}
 		}
 	]
