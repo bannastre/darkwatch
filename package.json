@@ -1,0 +1,22 @@
+{
+    "name": "darkwatch",
+    "displayName": "darkwatch",
+    "description": "",
+    "version": "0.0.1",
+    "publisher": "bannastre",
+    "engines": {
+        "vscode": "^1.18.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "darkwatch",
+                "uiTheme": "vs-dark",
+                "path": "./themes/darkwatch-color-theme.json"
+            }
+        ]
+    }
+}
