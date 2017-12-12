@@ -1,0 +1,12 @@
+{
+  "name": "test_json",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git@git.gitty",
+    "someArray": [
+      "key",
+      "value"
+    ]
+  }
+}
