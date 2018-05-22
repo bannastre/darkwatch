@@ -37,9 +37,7 @@
 				"entity.other.inherited-class",
 				"markup.heading",
 				"markup.inserted.git_gutter",
-				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js",
-				"keyword.control.ruby",
-				"keyword.control.def.ruby"
+				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
 			],
 			"settings": {
 				"foreground": "#83A598"
@@ -48,10 +46,11 @@
 		{
 			"name": "Burnt Orange",
 			"scope": [
-				"keyword",
 				"storage.type",
 				"storage.modifier",
+				"keyword",
 				"keyword.control",
+				"keyword.control.ruby",
 				"keyword.other",
 				"keyword.other.unit",
 				"keyword.other.template",
